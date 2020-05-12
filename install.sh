@@ -172,10 +172,8 @@ wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/gugun09/install
 if [ "$OS" == "x86_64" ]; then
   wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/gugun09/install/master/badvpn-udpgw64"
 fi
-sed -i '$ i\screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200' /etc/rc.local
 sed -i '$ i\screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7500' /etc/rc.local
 chmod +x /usr/bin/badvpn-udpgw
-screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200
 screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7500
 
 # setting port ssh
