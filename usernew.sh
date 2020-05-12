@@ -27,5 +27,5 @@ echo -e "nginx: 81" | lolcat
 echo -e "=============================" | lolcat
 echo -e "Expiration: $exp" | lolcat
 echo -e "=============================" | lolcat
-echo -e "Mod by Gugun 09" | lolcat
+echo -e "Mod by Gugun WD" | lolcat
 echo -e ""

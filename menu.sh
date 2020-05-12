@@ -1,6 +1,5 @@
 #!/bin/bash
 #Menu
-clear 
 
 echo -e "* menu      : Displays a list of available commands" | lolcat
 echo -e "* edit      : Edit ports" | lolcat

@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Original script by fornesia, rzengineer and fawzya 
-# Mod by Gugun 09
+# Mod by Gugun WD
 # 
 # ==================================================
 
@@ -14,11 +14,11 @@ MYIP2="s/xxxxxxxxx/$MYIP/g";
 # company name details
 country=ID
 state=Samarinda
-locality=Kaltim
-organization=Gugun
-organizationalunit=Gugun
-commonname=Kaltara
-email=gratisan09@gmail.com
+locality=Samarinda
+organization=GUGUN
+organizationalunit=GUGUN
+commonname=GUGUN
+email=Gratisan09@gmail.com
 
 # configure rc.local
 cat <<EOF >/etc/rc.local
@@ -86,7 +86,7 @@ echo 'echo -e "                     $$    $$/                      "' >> .bashrc
 echo 'echo -e "                      $$$$$$/                       "' >> .bashrc
 echo 'echo -e "            Baper Group™" | lolcat' >> .bashrc
 echo 'echo -e "welcome to the server $HOSTNAME" | lolcat' >> .bashrc
-echo 'echo -e "Script mod by Gugun 09" | lolcat' >> .bashrc
+echo 'echo -e "Script mod by Gugun WD" | lolcat' >> .bashrc
 echo 'echo -e "Type menu to display a list of commands" | lolcat' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 
@@ -104,13 +104,13 @@ apt-get -y install openvpn easy-rsa openssl
 cp -r /usr/share/easy-rsa/ /etc/openvpn
 mkdir /etc/openvpn/easy-rsa/keys
 sed -i 's|export KEY_COUNTRY="US"|export KEY_COUNTRY="ID"|' /etc/openvpn/easy-rsa/vars
-sed -i 's|export KEY_PROVINCE="CA"|export KEY_PROVINCE="Bulungan"|' /etc/openvpn/easy-rsa/vars
+sed -i 's|export KEY_PROVINCE="CA"|export KEY_PROVINCE="Samarinda"|' /etc/openvpn/easy-rsa/vars
 sed -i 's|export KEY_CITY="SanFrancisco"|export KEY_CITY="Samarinda"|' /etc/openvpn/easy-rsa/vars
 sed -i 's|export KEY_ORG="Fort-Funston"|export KEY_ORG="ZonaNyaman"|' /etc/openvpn/easy-rsa/vars
-sed -i 's|export KEY_EMAIL="me@myhost.mydomain"|export KEY_EMAIL="Gratisan09@gmail.com"|' /etc/openvpn/easy-rsa/vars
-sed -i 's|export KEY_OU="MyOrganizationalUnit"|export KEY_OU="Gugun"|' /etc/openvpn/easy-rsa/vars
-sed -i 's|export KEY_NAME="EasyRSA"|export KEY_NAME="Gugun"|' /etc/openvpn/easy-rsa/vars
-sed -i 's|export KEY_OU=changeme|export KEY_OU=Gugun|' /etc/openvpn/easy-rsa/vars
+sed -i 's|export KEY_EMAIL="me@myhost.mydomain"|export KEY_EMAIL="Gtatisan09@gmail.com"|' /etc/openvpn/easy-rsa/vars
+sed -i 's|export KEY_OU="MyOrganizationalUnit"|export KEY_OU="IpangNettNott"|' /etc/openvpn/easy-rsa/vars
+sed -i 's|export KEY_NAME="EasyRSA"|export KEY_NAME="GUGUN"|' /etc/openvpn/easy-rsa/vars
+sed -i 's|export KEY_OU=changeme|export KEY_OU=GUGUN|' /etc/openvpn/easy-rsa/vars
 
 # Create Diffie-Helman Pem
 openssl dhparam -out /etc/openvpn/dh2048.pem 2048
@@ -367,7 +367,7 @@ echo "Timezone : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "IPv6     : [off]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Original Script by Fornesia, Rzengineer & Fawzya"  | tee -a log-install.txt
-echo "Modified by Gugun 09"  | tee -a log-install.txt
+echo "Modified by Gugun WD"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt

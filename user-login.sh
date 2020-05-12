@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Script Copyright www.fornesia.com
-# Mod by Gugun 09
+# Mod by Gugun WD
 # ==========================
 # 
 
@@ -50,6 +50,6 @@ echo "------------------------------------------------" | lolcat
 
 echo "";
 
-echo "Mod by Gugun 09" | lolcat;
+echo "Mod by Gugun WD" | lolcat;
 
 echo "";

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod by Gugun 09
+# Mod by Gugun WD
 clear
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
