@@ -96,7 +96,7 @@ rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/gugun09/install/master/nginx.conf"
 mkdir -p /home/vps/public_html
-echo "<pre>Setup by JandaBaper</pre>" > /home/vps/public_html/index.html
+echo "<pre>Setup by ZonaNyaman</pre>" > /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/gugun09/install/master/vps.conf"
 
 # install openvpn
@@ -172,8 +172,10 @@ wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/gugun09/install
 if [ "$OS" == "x86_64" ]; then
   wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/gugun09/install/master/badvpn-udpgw64"
 fi
+sed -i '$ i\screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7400' /etc/rc.local
 sed -i '$ i\screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7500' /etc/rc.local
 chmod +x /usr/bin/badvpn-udpgw
+screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7400
 screen -AmdS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7500
 
 # setting port ssh
@@ -268,7 +270,7 @@ wget -O show-ports "https://raw.githubusercontent.com/gugun09/install/master/sho
 wget -O usernew "https://raw.githubusercontent.com/gugun09/install/master/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/gugun09/install/master/trial.sh"
 wget -O delete "https://raw.githubusercontent.com/gugun09/install/master/delete.sh"
-wget -O check "https://raw.githubusercontent.com/gugun09/install/master/user-login.sh"
+wget -O cek "https://raw.githubusercontent.com/gugun09/install/master/user-login.sh"
 wget -O member "https://raw.githubusercontent.com/gugun09/install/master/user-list.sh"
 wget -O restart "https://raw.githubusercontent.com/gugun09/install/master/restart.sh"
 wget -O speedtest "https://raw.githubusercontent.com/gugun09/install/master/speedtest_cli.py"
@@ -286,7 +288,7 @@ chmod +x show-ports
 chmod +x usernew
 chmod +x trial
 chmod +x delete
-chmod +x check
+chmod +x cek
 chmod +x member
 chmod +x restart
 chmod +x speedtest

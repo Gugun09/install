@@ -14,12 +14,16 @@ echo -e "* Fawzya" | lolcat
 echo -e ""
 echo -e "Mod by" | lolcat
 echo -e ""
-echo -e "   __ _ _   _  __ _ _   _ _ ___    "
-echo -e "  / _` | | | |/ _` | | | | '_  \	"
-echo -e " | (_| | |_| | (_| | |_| | | | |	"
-echo -e "  \__, |\__,_|\__, |\__,_|_| |_|	"
-echo -e "  |___/       |___/				"
-echo -e "        Zona Nyaman™ " | lolcat
+echo -e "   ▄████  █    ██   ▄████  █    ██  ███▄    █  "
+echo -e "  ██▒ ▀█▒ ██  ▓██▒ ██▒ ▀█▒ ██  ▓██▒ ██ ▀█   █  " 
+echo -e " ▒██░▄▄▄░▓██  ▒██░▒██░▄▄▄░▓██  ▒██░▓██  ▀█ ██▒ "
+echo -e " ░▓█  ██▓▓▓█  ░██░░▓█  ██▓▓▓█  ░██░▓██▒  ▐▌██▒ "
+echo -e " ░▒▓███▀▒▒▒█████▓ ░▒▓███▀▒▒▒█████▓ ▒██░   ▓██░ "
+echo -e "  ░▒   ▒ ░▒▓▒ ▒ ▒  ░▒   ▒ ░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒  "
+echo -e "   ░   ░ ░░▒░ ░ ░   ░   ░ ░░▒░ ░ ░ ░ ░░   ░ ▒░ "
+echo -e " ░ ░   ░  ░░░ ░ ░ ░ ░   ░  ░░░ ░ ░    ░   ░ ░  "
+echo -e "       ░    ░           ░    ░              ░  "
+echo -e "             Baper Group™ " | lolcat
 echo -e ""
-echo -e "   gratisan009@gmail.com" | lolcat
+echo -e "       gratisan009@gmail.com" | lolcat
 echo -e ""

@@ -1,6 +1,7 @@
 #!/bin/bash
 #Script auto create user SSH
 
+clear
 read -p "Username : " Login
 read -p "Password : " Pass
 read -p "Expired (hari): " Activetime
@@ -22,7 +23,7 @@ echo -e "Port Squid: 80,8080 (limit to IP SSH)" | lolcat
 echo -e "Config SSL: http://$IP:81/ssl.conf" | lolcat
 echo -e "Config OpenVPNSSL: http://$IP:81/openvpnssl.ovpn" | lolcat
 echo -e "Config OpenVPN (TCP 1194): http://$IP:81/client.ovpn" | lolcat
-echo -e "badvpn: badvpn-udpgw port 7500" | lolcat
+echo -e "badvpn: badvpn-udpgw port 7400, 7500" | lolcat
 echo -e "nginx: 81" | lolcat
 echo -e "=============================" | lolcat
 echo -e "Expiration: $exp" | lolcat
