@@ -26,7 +26,7 @@ echo -e "* edit      : Edit ports" | lolcat
 echo -e "* usernew   : Creating an SSH Account" | lolcat
 echo -e "* trial     : Create a Trial Account" | lolcat
 echo -e "* delete    : Clearing SSH and OpenVPN Account" | lolcat
-echo -e "* check     : Check User Login" | lolcat
+echo -e "* cek       : Check User Login" | lolcat
 echo -e "* member    : Check Member SSH and OpenVPN" | lolcat
 echo -e "* restart   : Restart Service dropbear, webmin" | lolcat
 echo -e "              squid3, OpenVPN and SSH" | lolcat
